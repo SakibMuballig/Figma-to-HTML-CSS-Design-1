@@ -1,0 +1,200 @@
+.sidebar-header {
+  padding: 20px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.5px solid white;
+  margin-right: 15px;
+}
+
+.header-top h1 {
+  margin: 0;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.welcome-section {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-section img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: 15px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-text h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.welcome-text p {
+  margin: 5px 0 0;
+  font-size: 1em;
+}
+
+.paragraph p {
+  margin-left: 10px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height:100 vh;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100x;
+  background-color: #293c4d;
+  color: hsl(208, 100%, 97%);
+  padding-top: 10px;
+}
+
+.sidebar-header {
+  padding: 10px 20px;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px 20px;
+}
+
+.sidebar-menu li a {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-menu li .text {
+  margin-left: 10px; /* Adjust this to move the text right or left */
+}
+
+.live p{
+  margin-left: 10px;
+}
+
+.sidebar-menu li:hover {
+  background-color: #08539e;
+}
+
+.sidebar-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.submenu {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  background-color: #e9e3e3;
+}
+
+.form{
+  background-color: #ffffff;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.form-group {
+  width: 70%;
+  
+  margin-left: 80px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 0.5px solid rgb(98, 99, 100);
+  background-color: rgb(255, 255, 255);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+button.Cancel {
+  background-color: red;
+  color: white;
+  border: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button.Reset {
+  background-color: #0015ff;
+  color: white;
+  border: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button.Submit {
+  background-color: #225913;
+  color: white;
+  border: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
